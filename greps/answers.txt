@@ -45,7 +45,11 @@ ls captured/*.txt | wc -l
 15
 
 ### b)
+find captured/ -type f -exec wc -l {} + | sort -rn
 
+1.40 captured//pikachu.txt
+2.40 captured//charizard.txt
+3.40 captured//beedrill
 
 
 
